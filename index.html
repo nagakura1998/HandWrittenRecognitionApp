@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Digit - Capital Alphabet Classification</title>
+        <link rel="stylesheet" href="./style.css" />
+        <script src="https://cdn.jsdelivr.net/npm/onnxjs/dist/onnx.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web@1.12.1/dist/ort.min.js"></script>
+        <script src="./script.js" defer></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js" integrity="sha256-WVsM3xrcqyuFNF3W1qtIKbHFsD0977nDQA8DCMp1zCw=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js" integrity="sha256-2/3R3NV5zryj0fDjD3cDh+SNiWQ/TJiMVZzAo5FrhiU=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <canvas id="canvas" width="500" height="500"></canvas>
+        <div class="toolbox">
+            <button id="recognise">Recognise</button>
+            <button id="clear">Erase</button>
+        </div>
+        <div style="margin-top:5px; text-align: center; font-weight: 900;">
+            <div>
+              Solution:
+              <div id=solution-container>
+      
+              </div>
+            </div>
+          </div>
+    </body>
+</html>
